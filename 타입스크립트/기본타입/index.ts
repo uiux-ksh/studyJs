@@ -25,7 +25,11 @@ let a2:Array<number> = [1,2,3];
 
 let week1:string[] = ['mon','tue','wed'];
 let week2:Array<string> =['mon','tue','wed'];
-
+interface TT  {
+    id:string;
+    text:string;
+}
+let ace:Array<TT>= [{id:"1234",text:"1234"}]
 //week2.push(3)하면 에러가나옵니다.
 
 
